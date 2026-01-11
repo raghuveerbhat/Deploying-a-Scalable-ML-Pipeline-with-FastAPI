@@ -12,7 +12,6 @@ from ml.model import (
     save_model,
     train_model,
 )
-import os
 
 project_path = os.getcwd()
 data_path = os.path.join(project_path, "data", "census.csv")
